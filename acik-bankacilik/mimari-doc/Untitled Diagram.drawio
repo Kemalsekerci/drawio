@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net" modified="2023-05-05T07:08:40.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2jUPhuMqB7VuQJ9wy_Ar" version="21.1.8" type="github">
+  <diagram id="turxV7ohII1XpymAgil2" name="Page-1">
+    <mxGraphModel dx="3430" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-1" value="INTERNET" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="365" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-2" value="BKM GATE PROD ORTAMI" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="880" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="afenZqITxFkO3YegGz8j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-4" target="H7jlmLXIGGdzzBjCZ_9L-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-4" value="SECURE&lt;br&gt;secure.api-intra.bkm.com.tr&lt;br&gt;x-cert-client-code kaldırılacak, sertifikadaki eklenecek.&lt;br&gt;&lt;table width=&quot;166&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;  &lt;td style=&quot;height:15.0pt;width:125pt&quot; width=&quot;166&quot; height=&quot;20&quot;&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;192.168.186.26&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="337.5" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-5" value="OPENSHIFT ROUTER NODES&lt;br style=&quot;font-size: 18px;&quot;&gt;Openshift4RouterNodesIntra_FW ?&amp;nbsp;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;192.168.208.43&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;192.168.208.44&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="550" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="H7jlmLXIGGdzzBjCZ_9L-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-9" value="BKM SUBNET" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-13" target="H7jlmLXIGGdzzBjCZ_9L-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-13" value="secure.api-intra.bkm.com.tr&lt;br&gt;62.244.244.60" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="350" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-17" target="H7jlmLXIGGdzzBjCZ_9L-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-17" value="PUBLIC&lt;br style=&quot;font-size: 17px;&quot;&gt;api-intra.bkm.com.tr -&lt;br style=&quot;font-size: 17px;&quot;&gt;x-cert-client-code kaldırılacak&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;table width=&quot;166&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;tbody style=&quot;font-size: 17px;&quot;&gt;&lt;tr style=&quot;height: 15pt; font-size: 17px;&quot; height=&quot;20&quot;&gt;  &lt;td style=&quot;height: 15pt; width: 125pt; font-size: 17px;&quot; width=&quot;166&quot; height=&quot;20&quot;&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;192.168.228.5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="560" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-19" target="H7jlmLXIGGdzzBjCZ_9L-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-19" value="SECURE&lt;br style=&quot;font-size: 17px;&quot;&gt;secure.api-intra.bkm.com.tr&lt;br style=&quot;font-size: 17px;&quot;&gt;x-cert-client-code kaldırılacak sonra eklenecek&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;table width=&quot;166&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;tbody style=&quot;font-size: 17px;&quot;&gt;&lt;tr style=&quot;height: 15pt; font-size: 17px;&quot; height=&quot;20&quot;&gt;  &lt;td style=&quot;height: 15pt; width: 125pt; font-size: 17px;&quot; width=&quot;166&quot; height=&quot;20&quot;&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;192.168.228.6&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="710" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-22" target="H7jlmLXIGGdzzBjCZ_9L-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-22" target="H7jlmLXIGGdzzBjCZ_9L-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-22" value="Katılımcılar&lt;br&gt;&lt;span lang=&quot;TR&quot;&gt;BkmGateNet2IncomingProd_FW&lt;/span&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="660" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-23" value="Katılımcılar&lt;br&gt;&lt;span lang=&quot;TR&quot;&gt;Kısıtlı Erişime Açık&lt;br&gt;&lt;/span&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="300" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-24" value="NET2" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="345" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-26" target="H7jlmLXIGGdzzBjCZ_9L-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-26" value="api-intra.bkm.com.tr&lt;br&gt;100.100.10.101" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="590" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-28" target="H7jlmLXIGGdzzBjCZ_9L-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-28" value="secure.api-intra.bkm.com.tr&lt;br&gt;100.100.10.102" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="740" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=7;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=7;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="1030" as="sourcePoint" />
+            <mxPoint x="1240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7jlmLXIGGdzzBjCZ_9L-34" value="OPENSHIFT CLUSTER SUBNET" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-1" value="" style="shape=mxgraph.cisco.storage.relational_database;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="422" width="150" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-2" value="DB MYSQL&#xa;ip : 192.168.50.60&#xa;port 3306 " style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="630" width="265" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-3" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontSize=22;exitX=0.995;exitY=0.073;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tp8x5q8mLNqvDI4eOgfu-17" target="tp8x5q8mLNqvDI4eOgfu-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2030" y="560" as="sourcePoint" />
+            <mxPoint x="2190" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-5" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2685" y="770" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-7" value="MB - KAFKA&#xa;ıp : 192.168.191.251-252-253 &#xa;port 9092" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2705" y="950" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-8" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontSize=22;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tp8x5q8mLNqvDI4eOgfu-17" target="tp8x5q8mLNqvDI4eOgfu-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2020" y="752.3499999999998" as="sourcePoint" />
+            <mxPoint x="2115" y="729.9970588235293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-9" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2420" y="910" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-10" value="CACHE - REDIS - LB&#xa;ip : 192.168.223.23&#xa;port : 6379" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="1096" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-12" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontSize=22;" parent="1" source="tp8x5q8mLNqvDI4eOgfu-17" target="tp8x5q8mLNqvDI4eOgfu-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1790" y="750" as="sourcePoint" />
+            <mxPoint x="1950" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-13" value="" style="shape=mxgraph.cisco.servers.communications_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2070" y="910" width="150" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-14" value="IDENTITY - REDHAT SSO &#xa;ip : 192.168.228.15&#xa;port: 443&#xa;dns : sso.bkm.com.tr&#xa;FW tanımı yapılmayacak. &#xa;OS içinde service-name ile erişilecek.&#xa;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="2050" y="1120" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-17" value="OPENSHIFT WORKER NODES&lt;br style=&quot;font-size: 18px;&quot;&gt;Openshift4WorkerNodes_FW&amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;192.168.208.*&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="2140" y="550" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-18" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontSize=22;" parent="1" target="tp8x5q8mLNqvDI4eOgfu-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2219.998235294117" y="754.9999999999998" as="sourcePoint" />
+            <mxPoint x="2299.41" y="905.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp8x5q8mLNqvDI4eOgfu-19" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H7jlmLXIGGdzzBjCZ_9L-5" target="tp8x5q8mLNqvDI4eOgfu-17" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2070" y="720" as="sourcePoint" />
+            <mxPoint x="2170" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
